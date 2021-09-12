@@ -1,0 +1,8 @@
+{
+    "delay": 320,
+    "msg": "zprava",
+    "channelId": "channelId",
+    "randomNum": true,
+    "slowmode": 0,
+    "bypassSlowmodeAlogritmus": false
+}
