@@ -6,7 +6,6 @@ def getHeaders(authorization) :
     one = randstr(43)
     two = randstr(32)
     return {
-        # 'Content-Type': 'application/json',
         'Accept': '*/*',
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'en-US',
@@ -49,7 +48,7 @@ with open('tokens.txt','r') as handle:
                 print(token + " - Is locked!")
             else:
                 print(r.status_code)
-            time.sleep(0.350)
+            time.sleep(0.450)
 
         print ("joined!")
 
