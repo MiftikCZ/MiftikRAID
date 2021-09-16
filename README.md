@@ -1,9 +1,10 @@
 # MiftikRAID
 AKA **Nejlepší node.js free raid toolka která nelockuje tokeny**
 ## Setup
-Napiš tenhle příkaz:
+Napiš tyhle příkazy:
 ```
 npm install
+pip install requests
 ```
 
 potom si nastav soubor `config.json`
@@ -17,10 +18,13 @@ ObQsdWgSDKJDSbQsdRDha_.KJDSWgfSe
 ```
 
 ## Použití toolky
-- spam `npm spam`
-- join `npm join`
+- spam `node .`
+- join `python join.py`
+- leave `python leave.py`
+- reaction bypass `node reaction.js`
 
 ## Jak nastavit zprávně delay
 - 1 až 4 tokeny **300**
-- 5 až 7 tokenů **185**
-- 8 až 10 nebo více tokenů **100** až **50**
+- 5 až 10 tokenů **185**
+- 11 až 14 tokenů **125**
+- 15 až 25 nebo více tokenů **100** až **50**
