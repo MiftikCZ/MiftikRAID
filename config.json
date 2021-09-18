@@ -10,7 +10,9 @@
         "channelId": "channelId",
         "randomNum": true,
         "slowmode": 0,
+        "randomNumLenght": 8,
         "bypassSlowmodeAlogritmus": false,
-        "testTokens": false
+        "testTokens": false,
+        "smoothSpam": true
     }
 }
