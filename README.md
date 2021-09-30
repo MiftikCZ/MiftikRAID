@@ -27,4 +27,14 @@ ObQsdWgSDKJDSbQsdRDha_.KJDSWgfSe
 - 1 až 4 tokeny **300**
 - 5 až 10 tokenů **185**
 - 11 až 14 tokenů **125**
-- 15 až 25 nebo více tokenů **100** až **50**
+- 15 až 25 nebo více tokenů **100**
+
+## Output kódy
+- 2xx **nice**
+- 400 **špatnej requests, pravděpodobně jsi něco zadal špatně**
+- 401 **špatný token**
+- 403 **toolka nemá přístup k tokenu/channelu nebo podobně**
+- 404 **nenalezeno**
+- 405 **tohle se ti asi nikdy neukáže**
+- 3xx **tohle se ti asi taky nikdy neukáže**
+
