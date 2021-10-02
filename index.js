@@ -34,8 +34,8 @@ const rl = createInterface({
     input: process.stdin,
     output: process.stdout
 });
-
-const abeceda = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+const abeceda = "123456789";
 
 function sleep(ms) {
     return new Promise((resolve) => {
@@ -72,7 +72,7 @@ async function run(Config) {
         for (let i = 0; i < tokens.length; i++) {
             let token = tokens[i]
             try {
-                fetch(`https://discordapp.com/api/v6/auth/login`, {
+                fetch(`https://discord.com/api/v9/users/@me/guild-events`, {
                     method: "GET",
                     headers: getHeaders2(token)
                 })
@@ -100,7 +100,7 @@ async function run(Config) {
         if (isNaN(id) || id.length < 10) {
             return console.log(getMsg("warn", "Please, enter a vaild channel id."))
         }
-        let tempRes = await fetch(`https://discordapp.com/api/v6/channels/${id}/messages`, {
+        let tempRes = await fetch(`https://discordapp.com/api/v9/channels/${id}/messages`, {
             method: "GET",
             headers: getHeaders(gudTokens[0])
         })
@@ -163,13 +163,6 @@ async function run(Config) {
                     } else {
                         await sleep(delay / 2)
                     }
-                }
-            }
-            if(!smoothSpam) {
-                if (bypassSlowmodeAlogritmus === true) {
-                    await sleep((slowmode / tokens.length) + ((slowmode < delay ? 1 : 0) * delay))
-                } else {
-                    await sleep(delay)
                 }
             }
         }
