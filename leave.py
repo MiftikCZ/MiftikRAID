@@ -48,7 +48,7 @@ with open('tokens.txt','r') as handle:
                 print(token + " - Is locked!")
             else:
                 print(r.status_code)
-            time.sleep(0.400)
+            time.sleep(0.125)
 
         print ("Completed!")
 
