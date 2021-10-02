@@ -33,7 +33,6 @@ link = input('Discord Invite Link: ')
 
 apilink = "https://discordapp.com/api/v6/invite/" + str(link)
 
-print (link)
 
 with open('tokens.txt','r') as handle:
         tokens = handle.readlines()
@@ -48,7 +47,7 @@ with open('tokens.txt','r') as handle:
                 print(token + " - Is locked!")
             else:
                 print(r.status_code)
-            time.sleep(0.450)
+            time.sleep(0.185)
 
         print ("joined!")
 
