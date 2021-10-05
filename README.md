@@ -18,10 +18,7 @@ ObQsdWgSDKJDSbQsdRDha_.KJDSWgfSe
 ```
 
 ## Použití toolky
-- spam `node .`
-- join `python join.py`
-- leave `python leave.py`
-- reaction bypass `node reaction.js`
+- otevři **run.bat** a vyber 1/2/3/4
 
 ## Jak nastavit zprávně delay
 - 1 až 4 tokeny **300**
