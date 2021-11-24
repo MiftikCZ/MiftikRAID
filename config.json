@@ -6,7 +6,7 @@
     },
     "spam": {
         "delay": 320,
-        "msg": "zprava",
+        "msg": "karma",
         "channelId": "channelId",
         "randomNum": true,
         "slowmode": 0,
