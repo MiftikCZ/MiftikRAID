@@ -1,4 +1,6 @@
 # MiftikRAID
+*For education purpose only*
+
 AKA **Nejlepší node.js free raid toolka která nelockuje tokeny**
 ## Setup
 Zapni **run.bat** a tam napiš tyhle příkazy:
